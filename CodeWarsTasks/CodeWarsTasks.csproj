@@ -39,21 +39,25 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="kata_4\NextSmallerNumberWithSameDigits.cs" />
+        <Compile Include="kata_5\SimplePigLatin.cs" />
+        <Compile Include="kata_6\DoesMyNumberLookBigInThis.cs" />
         <Compile Include="kata_6\Multiples_of_3_or_5.cs" />
+        <Compile Include="kata_6\ReplaceWithAlphabetPosition.cs" />
         <Compile Include="kata_6\ShortestStepsToNumber.cs" />
         <Compile Include="kata_6\TakeTenMinutesWalk.cs" />
         <Compile Include="kata_6\WhoLikesIt.cs" />
+        <Compile Include="kata_7\BeginnerSeries3SumOfNumbers.cs" />
+        <Compile Include="kata_7\Descending_Order.cs" />
         <Compile Include="kata_7\Reverse_Words.cs" />
         <Compile Include="kata_7\StringEndsWith.cs" />
         <Compile Include="kata_7\VowelCount.cs" />
         <Compile Include="kata_7\YouAreSquare.cs" />
+        <Compile Include="kata_8\AreYouPlayingBanjo.cs" />
         <Compile Include="kata_8\ConvertNumberToReversedArrayOfDigits.cs" />
+        <Compile Include="kata_8\HelloWorld.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="kata_4\" />
-      <Folder Include="kata_5\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
