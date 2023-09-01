@@ -53,6 +53,7 @@
     <Compile Include="kata_6\DoesMyNumberLookBigInThis.cs" />
     <Compile Include="kata_6\IPValidation.cs" />
     <Compile Include="kata_6\Multiples_of_3_or_5.cs" />
+    <Compile Include="kata_6\Number.cs" />
     <Compile Include="kata_6\ReplaceWithAlphabetPosition.cs" />
     <Compile Include="kata_6\RomanNumeralsEncoder.cs" />
     <Compile Include="kata_6\ShortestStepsToNumber.cs" />
