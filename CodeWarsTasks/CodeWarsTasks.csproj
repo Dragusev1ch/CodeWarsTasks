@@ -69,6 +69,7 @@
     <Compile Include="kata_7\GettingToKnowLINQ.cs" />
     <Compile Include="kata_7\HighestAndLowest.cs" />
     <Compile Include="kata_7\JadenCasingStrings.cs" />
+    <Compile Include="kata_7\ListFiltering.cs" />
     <Compile Include="kata_7\Reverse_Words.cs" />
     <Compile Include="kata_7\StringEndsWith.cs" />
     <Compile Include="kata_7\VowelCount.cs" />
