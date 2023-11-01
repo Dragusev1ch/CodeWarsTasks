@@ -49,6 +49,7 @@
     <Compile Include="kata_6\ArrayDiff.cs" />
     <Compile Include="kata_6\BreakCamelCase.cs" />
     <Compile Include="kata_6\ConvertStringToCamelCase.cs" />
+    <Compile Include="kata_6\CountSmileyFaces.cs" />
     <Compile Include="kata_6\DetectPangram.cs" />
     <Compile Include="kata_6\DoesMyNumberLookBigInThis.cs" />
     <Compile Include="kata_6\IPValidation.cs" />

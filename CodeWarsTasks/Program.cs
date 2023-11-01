@@ -2,23 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CodeWarsTasks
 {
-    internal class Program
+    public static class Program
     {
+        public static int CountSmileys(string[] smileys)
+        {
+            if(smileys == null  ||  smileys.Length == 0) return 0;
 
-        public static IEnumerable<int> GetIntegersFromList(List<object> listOfItems) => listOfItems.OfType<int>();
+            const string pattern = @"^[;:][-~]?[)D]$";
+            var regex = new Regex(pattern);
+
+            return smileys.Count(s => regex.IsMatch(s));
+        }
 
         public static void Main(string[] args)
         {
-            List<object> listOfItems = new List<object>(){1,"a",5,7,5.6,4.5,'a'};
-            foreach (var item in GetIntegersFromList(listOfItems))
-            {
-                Console.WriteLine(item);
-            }
-
-            Console.ReadLine();
         }
     }
 }
